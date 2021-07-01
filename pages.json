@@ -1,0 +1,146 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "JWMS",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"float": "left",
+							"text": "\ue563",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"fontWeight": "bold"
+						}]
+					},
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/used/used",
+			"style": {
+				"navigationBarTitleText": "常用",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hospital-visit-report/hospital-visit-report",
+			"style": {
+				"navigationBarTitleText": "医院拜访报告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hospital-visit-report-list/hospital-visit-report-list",
+			"style": {
+				"navigationBarTitleText": "医院拜访报告列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hospital-check-report/hospital-check-report",
+			"style": {
+				"navigationBarTitleText": "医院抽查报告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hospital-check-report-list/hospital-check-report-list",
+			"style": {
+				"navigationBarTitleText": "医院抽查报告列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/agent-visit-report/agent-visit-report",
+			"style": {
+				"navigationBarTitleText": "代理商拜访报告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/agent-visit-report-list/agent-visit-report-list",
+			"style": {
+				"navigationBarTitleText": "代理商拜访报告列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/section-meeting-report/section-meeting-report",
+			"style": {
+				"navigationBarTitleText": "科室会报告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/section-meeting-report-list/section-meeting-report-list",
+			"style": {
+				"navigationBarTitleText": "科室会报告列表",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "JWMS",
+		"navigationBarBackgroundColor": "#0b7bc4",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#0b7bc4",
+		"list": [{
+				"text": "首页",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home_active.png",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "常用",
+				"iconPath": "static/tabBar/used.png",
+				"selectedIconPath": "static/tabBar/used_active.png",
+				"pagePath": "pages/used/used"
+			},
+			{
+				"text": "消息",
+				"iconPath": "static/tabBar/message.png",
+				"selectedIconPath": "static/tabBar/message_active.png",
+				"pagePath": "pages/message/message"
+			},
+			{
+				"text": "个人",
+				"iconPath": "static/tabBar/person.png",
+				"selectedIconPath": "static/tabBar/person_active.png",
+				"pagePath": "pages/person/person"
+			}
+		]
+	}
+}
