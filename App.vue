@@ -1,17 +1,13 @@
 <script>
 	export default {
 		onLaunch: function() {
-			console.log('onLaunch');
+			console.log('1111111111111');
 		},
 		onShow: function() {
-			console.log('App Show')
+			console.log('222222222')
 		},
 		onHide: function() {
-			console.log('App Hide')
+			console.log('33333333333333')
 		}
 	}
 </script>
-
-<style>
-	@import url("./common/iconfont.css");
-</style>
